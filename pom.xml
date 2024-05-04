@@ -19,10 +19,10 @@
 		        <groupId>org.apache.maven.plugins</groupId>
 		        <artifactId>maven-compiler-plugin</artifactId>
 		        <version>3.8.1</version> <!-- or the latest version -->
-		        <configuration>
-		          <source>1.8</source> <!-- Java version source compatibility -->
-		          <target>1.8</target> <!-- Java version target compatibility -->
-		        </configuration>
+			   <configuration>
+				   <source>17</source> <!-- Java version source compatibility -->
+				   <target>17</target> <!-- Java version target compatibility -->
+			   </configuration>
 	      </plugin>
   </plugins>
   </build>
